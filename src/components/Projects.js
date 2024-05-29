@@ -11,7 +11,7 @@ export const Projects = () => {
             title: "Portfolio Website",
             description: "Web Design and Development",
             imgUrl: projImg1,
-            link: "https://github.com/KCE14"
+            link: "https://github.com/KCE14/personal-portfolio"
         },
         {
             title: "EC2 Remote Access Server",
