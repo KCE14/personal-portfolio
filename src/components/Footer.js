@@ -19,7 +19,10 @@ export const Footer = () => {
             <a href="https://github.com/KCE14"><img src={navIcon2} alt="github" /></a>
             <a href="https://www.instagram.com/_kelechieze/"><img src={navIcon3} alt="instagram" /></a>
             </div>
-            <p>Copyright 2024. All Rights Reserved</p>
+            <p>Email: ezekelechi14@gmail.com
+               <br></br>Phone Number: 757-572-0052<br></br><br></br>
+               Copyright 2024. All Rights Reserved
+            </p>
           </Col>
         </Row>
       </Container>
