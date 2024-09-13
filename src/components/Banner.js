@@ -4,13 +4,6 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/pfp_img.svg";
 
 export const Banner = () => {
-    const [loopNum, setLoopNum] = useState(0);
-    const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Software Developer", "Web Developer", "Security Analyst"];
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const [index, setIndex] = useState(1);
-    const [text, setText] = useState('');
-    const period = 2000;
 
     const handleContactClick = () => {
         window.location.href = 'mailto:ezechristian26@vt.edu';
@@ -27,7 +20,7 @@ export const Banner = () => {
                     <h1>{"Hi! I'm Kelechi Eze"}</h1>
                     <p>Aspiring Security Engineer and Software Engineer currently studying Computer Science at Virginia Tech with
                       a focus in Cybersecurity. Proficient in Java, Python, C, Linux, Splunk, and Wireshark.
-                      Currently interning at Parsons Corporation as a Software Engineering Intern on Cyber Team.
+                      Currently working as an Undergraduate Researcher at Hume Center for National Security & Technology.
                     </p>
                     <button onClick= {handleContactClick}>Contact Me!<ArrowRightCircle size={25} /></button>
                 </Col>

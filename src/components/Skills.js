@@ -33,14 +33,14 @@ export const Skills = () =>
                             <p>These are my applicable technical skills related to the tech industry.<br></br>Including but not limited to:</p>
                         <div className ="item">
                             
-                            <h5> Programming Languages: Java, Python, C, Javascript, HTML, CSS, Node.js, MATLAB</h5><br></br>
+                            <h5> Languages: Java, Python, C, Javascript, HTML, CSS, Node.js, Assembly, MATLAB</h5><br></br>
                         </div>
                         <div className ="item">
                             
                             <h5>Cloud Developing: AWS, S3, Lambda, API Gateway, IAM, EC2, Cognito, Cloudwatch</h5><br></br>
                         </div>
                         <div className ="item">
-                            <h5>Cybersecurity: Linux, Bash, Splunk, Wireshark, Snort, Ubuntu, VMWare, Azure Lab VM</h5>
+                            <h5>Cybersecurity: Linux, Bash, Splunk, Wireshark, Burp Suite, Snort, Ubuntu, VMWare, Azure Lab VM</h5>
                         </div>
                         </div>
                     </Col>
