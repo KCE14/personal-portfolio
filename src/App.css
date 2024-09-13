@@ -328,6 +328,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   margin-right: 75px;
+  width: 375px; /* Set the width */
+  height: 375px; /* Set the height (should be equal to width for a perfect circle) */
+  border-radius: 50%; /* This creates the circle shape */
+  object-fit: cover; /* Ensures the image is cropped to fit the circular area */
 }
 @keyframes updown {
     0% {
