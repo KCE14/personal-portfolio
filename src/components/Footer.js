@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import logo from "../assets/img/kelelogo.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/github-icon.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const Footer = () => {
   return (
@@ -17,7 +16,6 @@ export const Footer = () => {
             <div className="social-icon">
             <a href="https://www.linkedin.com/in/ckelechieze"><img src={navIcon1} alt="linkedin" /></a>
             <a href="https://github.com/KCE14"><img src={navIcon2} alt="github" /></a>
-            <a href="https://www.instagram.com/_kelechieze/"><img src={navIcon3} alt="instagram" /></a>
             </div>
             <p>Email: ezekelechi14@gmail.com
                <br></br>Phone Number: 757-572-0052<br></br><br></br>
