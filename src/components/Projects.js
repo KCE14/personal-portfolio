@@ -1,10 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/E.png";
-import projImg2 from "../assets/img/ec21.jpg";
+import projImg2 from "../assets/img/cyb-homelab.jpg";
 import projImg3 from "../assets/img/Screenshot (52).png";
 import projImg4 from "../assets/img/scripting.jpeg";
 import projImg5 from "../assets/img/medium-art.png";
+import projImg6 from "../assets/img/ec21.jpg";
 
 
 export const Projects = () => {
@@ -16,10 +17,10 @@ export const Projects = () => {
             link: "https://github.com/KCE14/personal-portfolio"
         },
         {
-            title: "EC2 Remote Access Server",
-            description: "Cloud and SSH Configuration",
+            title: "Cloud Cybersecurity Homelab",
+            description: "Terraform Infrastructure",
             imgUrl: projImg2,
-            link: "https://github.com/KCE14/EC2Instance"
+            link: "https://github.com/KCE14/cloud-security-homelab"
         },
         {
             title: "AWS S3 Honey Bucket Logs Case",
@@ -42,6 +43,12 @@ export const Projects = () => {
             description: "General Security and OSINT",
             imgUrl: projImg5,
             link: "https://github.com/KCE14/medium-writeups"
+        },
+        {
+            title: "EC2 Remote Access Server",
+            description: "Cloud and SSH Configuration",
+            imgUrl: projImg6,
+            link: "https://github.com/KCE14/EC2Instance"
         },
     ]
 
