@@ -18,9 +18,10 @@ export const Banner = () => {
                 <Col xs={12} md={6} xl={7}>
                     <span className="tagline">Welcome to My Portfolio</span>
                     <h1>{"Hi! I'm Kelechi Eze"}</h1>
-                    <p>Aspiring Security Engineer and Software Engineer currently studying Computer Science at Virginia Tech with
-                      a focus in Cybersecurity. Proficient in Java, Python, C, Linux, Splunk, and Wireshark.
-                      Currently working as an Undergraduate Researcher at Hume Center for National Security & Technology.
+                    <p>Aspiring Security Engineer currently studying Computer Science at Virginia Tech with
+                      a focus in Cybersecurity. Proficient in Java, Python, and C. Proficient with tools like 
+                      Kali Linux, Splunk, and Wireshark. Currently working as an Undergraduate Researcher at 
+                      Hume Center for National Security & Technology.
                     </p>
                     <button onClick= {handleContactClick}>Contact Me!<ArrowRightCircle size={25} /></button>
                 </Col>
