@@ -20,7 +20,7 @@ export const Banner = () => {
                     <h1>{"Hi! I'm Kelechi Eze"}</h1>
                     <p>Aspiring Security Engineer currently studying Computer Science at Virginia Tech with
                       a focus in Cybersecurity. Proficient in Java, Python, and C. Proficient with tools like 
-                      Kali Linux, Splunk, and Wireshark. Currently working as Security Engineer at 
+                      Kali Linux, Splunk, and Wireshark. Currently working as a Security Engineer at 
                       Capital One.
                     </p>
                     <button onClick= {handleContactClick}>Contact Me!<ArrowRightCircle size={25} /></button>
