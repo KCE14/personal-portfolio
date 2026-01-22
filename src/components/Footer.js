@@ -20,7 +20,7 @@ export const Footer = () => {
             </div>
             <p>Email: ezekelechi14@gmail.com
                <br></br>Phone Number: 757-572-0052<br></br><br></br>
-               Copyright 2024. All Rights Reserved
+               Copyright 2026. All Rights Reserved
             </p>
           </Col>
         </Row>
